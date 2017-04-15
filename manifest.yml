@@ -1,0 +1,11 @@
+---
+applications:
+- name: "microservice"
+  memory: 1024M
+  disk_quota: 1024M
+  path: "./"
+  command: "npm start"
+  host: "microservice"
+  buildpack: "https://github.com/cloudfoundry/buildpack-nodejs.git#v1.5.5"
+  env:
+    NODE_ENV: "production" 

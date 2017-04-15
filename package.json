@@ -1,0 +1,25 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "author": "shailendra singh",
+  "homepage": "https://github.com/shailendra4chat",
+  "description": "A web app starter project that includes Node, Express, passport with OAuth 2.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "morgan": "^1.8.1",
+    "passport": "^0.2.2",
+    "passport-oauth2": "^1.1.2",
+    "passport-oauth2-refresh": "^1.0.0",
+    "request": "^2.81.0"
+  }
+}
